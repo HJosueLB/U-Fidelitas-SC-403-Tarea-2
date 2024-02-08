@@ -1,0 +1,181 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 4, 2024, 7:55:54 PM
+    Author     : harly
+*/
+
+/* Default CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.body {
+    background: #041333;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-nav {
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 10px 20px;
+}
+
+.nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #439bff;
+    transition: width 0.3s;
+}
+
+.nav ul li a:hover::after {
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/* New CSS */
+
+.section h1 {
+    font-size: 50px;
+    color: #439bff;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.section article {
+    margin-top: 2%;
+    font-size: 19px;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container_services {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.container_services h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container_services h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #439bff;
+    font-size: 17px;
+}
+
+.container_services div {
+    flex: 1;
+    margin: 10px;
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #041333;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #439bff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.container_services i {
+    font-size: 2em;
+}
+
+.quote {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.quote1,
+.quote2,
+.quote3 {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #041333;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quote1:hover,
+.quote2:hover,
+.quote3:hover {
+    background-color: #439bff;
+}
+
+.contairner_album {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contairner_album img {
+    width: 400px;
+    height: 400px;
+}

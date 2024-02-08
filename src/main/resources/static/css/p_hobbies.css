@@ -1,0 +1,144 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 6, 2024, 9:36:24 PM
+    Author     : harly
+*/
+
+/* Default CSS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.body {
+    background: #041333;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-nav {
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 10px 20px;
+}
+
+.nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #439bff;
+    transition: width 0.3s;
+}
+
+.nav ul li a:hover::after {
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+/* New CSS */
+
+.title {
+    font-size: 50px;
+    color: #439bff;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.message {
+    margin-top: 2%;
+    font-size: 19px;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.photography h1 {
+    font-size: 35px;
+    color: #439bff;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.section p {
+    margin-top: 2%;
+    font-size: 19px;
+    margin-bottom: 2%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contairner_album {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+.contairner_album img {
+    width: 400px;
+    height: 400px;
+}
+
+.music h1 {
+    font-size: 35px;
+    color: #439bff;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.music div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
